@@ -39,6 +39,15 @@ body {
             background-color: #ddd;
             color: black;
         }
+        .image1 {
+            position: absolute;
+            left: 600px;
+            top: 178px;
+            width: 100%;
+            max-width: 1050px;
+            height: auto;
+            align-items: right;
+        }
         .container {
             display: flex;
             flex-wrap: wrap;
@@ -49,15 +58,29 @@ body {
             flex-wrap: wrap;
             padding: 20px;
             height: 700px;
-            width: 550px;
+            width: 30%;
+
         }
-        .content {
+        .container2 {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            height: 700px;
+            width: 50%;
+
+        }
+        .content1 {
             flex: 3;
             background-color: #ffffff;
             padding: 15px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        
+        .content2 {
+            flex: 3;
+            background-color: #ffffff;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
         footer {
             background-color: #333;
             color: white;
